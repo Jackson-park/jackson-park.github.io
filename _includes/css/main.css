@@ -204,7 +204,11 @@ section.success {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 240px;
+	 max-height: 240px;
+	 overflow: hidden;
+	 border-radius: 50px;
+	 box-shadow: 1px 1px 10px 0 rgba(0,0,0,0.3);
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
