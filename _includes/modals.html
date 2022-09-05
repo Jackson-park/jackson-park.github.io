@@ -9,16 +9,31 @@
                 </div>
             </div>
             <div class="container">
-               <div class="row">
-						<div class="col-lg-8 col-lg-offset-2">
+               <div class="row" style="display: flex; width: 100%;">
+						<!-- class="col-lg-8 col-lg-offset-2" -->
+						<div style="margin: 0 auto;">
 							<div class="modal-body">
 								<h2>{{ post.title }}</h2>
 								<hr class="star-primary">
 								<img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}" style="width: min(30vw, 200px); height: min(30vw, 200px); object-fit: cover; border-radius: 50px;">
-								{% if post.description %}
-								<p>{{ post.description }}</p>
+
+								{% if post.link %}
+								<div style="margin-bottom: 30px;">
+									<a href="{{post.link}}" target="_system">{{ post.link }}</a>
+								</div>
 								{% endif %}
-								<ul class="list-inline item-details">
+								
+								{% if post.description %}
+								<p style="line-height: 2;">{{ post.description }}</p>
+								{% endif %}
+
+								<div style="margin-top: 30px; width: 100%; display: flex; justify-content: center; flex-direction: row; flex-wrap: wrap; gap: 10px;">
+									{% for image in post.images %}
+									<img src="img/portfolio/{{image}}" alt="" style="flex: 1; max-width: 140px;">
+									{% endfor %}
+								</div>
+
+								<!-- <ul class="list-inline item-details">
 								{% if post.client %}
 									<li>Client:
 										<strong><a href="http://startbootstrap.com">{{ post.client }}</a>
@@ -37,7 +52,7 @@
 										</strong>
 									</li>
 								{% endif %}
-								</ul>
+								</ul> -->
 								<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>Close</button>
 							</div>
 						</div>

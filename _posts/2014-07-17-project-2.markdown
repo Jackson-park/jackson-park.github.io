@@ -4,8 +4,7 @@ modal-id: 2
 title: 'Smilepass App'
 img: app_smilepass.png
 alt: smilepass-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+link: https://play.google.com/store/apps/details?id=com.sdnetworks.smilepass
+images: ['smilepass_1.png', 'smilepass_2.png', 'smilepass_3.png', 'smilepass_4.png', 'smilepass_5.png', 'smilepass_6.png', 'smilepass_7.png', 'smilepass_8.png', 'smilepass_9.png', 'smilepass_10.png',]
+description: 스마일패스는 운동리워드 앱입니다.<br>걸음 수와 운동시설을 패스하면 정해진 코인을 받아 SDmall 적립금으로 교환이 가능합니다.<br>Angular, TypeScript로 만들었으며, Ionic으로 앱을 빌드하였습니다.<br>처음부터 끝까지 기획에 참여하여 함께 의논하고 회의하여 출시한 앱입니다.<br>프론트를 담당하였고, android와 ios에 출시하였고, 업데이트 및 유지보수를 하고 있습니다.
 ---
