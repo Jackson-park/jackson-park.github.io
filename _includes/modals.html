@@ -29,7 +29,7 @@
 
 								<div style="margin-top: 30px; width: 100%; display: flex; justify-content: center; flex-direction: row; flex-wrap: wrap; gap: 10px;">
 									{% for image in post.images %}
-									<img src="img/portfolio/{{image}}" alt="" style="flex: 1; max-width: 140px;">
+									<img src="img/portfolio/{{image}}" alt="sub-{{image}}" loading="lazy" style="flex: 1; max-width: 140px;">
 									{% endfor %}
 								</div>
 
