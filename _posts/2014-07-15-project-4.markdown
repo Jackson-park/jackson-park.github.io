@@ -4,8 +4,7 @@ modal-id: 4
 title: 'SD Box App'
 img: app_sdbox.png
 alt: sdbox-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+images: ['sdbox_1.jpeg', 'sdbox_2.jpeg', 'sdbox_3.jpeg', 'sdbox_4.jpeg', 'sdbox_5.jpeg']
+description: SD Box는 SDmall 상품의 입고, 출고, 재고조사, 라벨 출력 등 물류시스템을 편리하게 처리해주는 SDmall 물류직원 전용 앱입니다.<br>혼자 프론트를 담당하였고, android에서 내부 앱으로 출시하였고, 업데이트 및 유지보수를 하고 있습니다.
+skills: [ 'Angular', 'TypeScript', 'Ionic', 'Capacitor', 'PWA' ]
 ---

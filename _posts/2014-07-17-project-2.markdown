@@ -4,7 +4,9 @@ modal-id: 2
 title: 'Smilepass App'
 img: app_smilepass.png
 alt: smilepass-alt
-link: https://play.google.com/store/apps/details?id=com.sdnetworks.smilepass
-images: ['smilepass_1.png', 'smilepass_2.png', 'smilepass_3.png', 'smilepass_4.png', 'smilepass_5.png', 'smilepass_6.png', 'smilepass_7.png', 'smilepass_8.png', 'smilepass_9.png', 'smilepass_10.png',]
-description: 스마일패스는 걷기, 운동시설 입장 및 운동 챌린지로 적립한 리워드를 SDmall에서 유용하게 사용하는 라이프스타일 앱입니다.<br>Angular, TypeScript로 만들었으며, Ionic으로 앱을 빌드하였습니다.<br>처음부터 끝까지 기획에 참여하여 함께 의논하고 회의하여 출시한 앱입니다.<br>혼자 프론트를 담당하였고, android와 ios에 출시하였고, 업데이트 및 유지보수를 하고 있습니다.
+android: https://play.google.com/store/apps/details?id=com.sdnetworks.smilepass
+ios: https://apps.apple.com/app/id1555374927
+images: ['smilepass_1.png', 'smilepass_2.png', 'smilepass_3.png', 'smilepass_4.png', 'smilepass_5.png', 'smilepass_6.png', 'smilepass_7.png', 'smilepass_8.png', 'smilepass_9.png', 'smilepass_10.png']
+description: 스마일패스는 걷기, 운동시설 입장 및 운동 챌린지로 적립한 리워드를 SDmall에서 유용하게 사용하는 라이프스타일 앱입니다.<br>기획에 참여하여 함께 의논하고 회의하여 출시한 앱입니다.<br>혼자 프론트를 담당했으며, android와 ios에 출시하였고, 업데이트 및 유지보수를 하고 있습니다.
+skills: [ 'Angular', 'TypeScript', 'Ionic', 'PWA' ]
 ---
