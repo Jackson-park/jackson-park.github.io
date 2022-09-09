@@ -4,8 +4,7 @@ modal-id: 6
 title: '사다드림'
 img: web_sadadream.png
 alt: sadadream-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+images: ['sadadream.png']
+description: 사다드림은 해외직구를 원하는 사람들과 여행자들과의 매칭을 통해 서로 거래하는 웹사이트입니다.<br>대학교에서 졸업작품으로 만들었던 프로젝트입니다. 4명에서 구현했으며 저는 주로 프론트앤드를 담당하였습니다.
+skills: [ 'React', 'JavaScript', 'express', 'Mysql' ]
 ---

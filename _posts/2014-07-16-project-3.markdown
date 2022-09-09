@@ -9,5 +9,5 @@ android: https://play.google.com/store/apps/details?id=com.sdoc.elite
 ios: https://apps.apple.com/app/id1434020892
 images: ['sdnetworks_1.png', 'sdnetworks_2.png', 'sdnetworks_3.png', 'sdnetworks_4.png', 'sdnetworks_5.png', 'sdnetworks_6.png', 'sdnetworks_7.png']
 description: SD네트웍스는 운동시설과 트레이너를 연결하는 플랫폼입니다. 홍보는 물론, 운동시설의 회원 마케팅을 지원하며 다양한 협업을 진행합니다.<br>Angular, TypeScript로 만들었으며, Ionic으로 앱을 빌드하였습니다.<br>처음부터 끝까지 기획에 참여하여 함께 의논하고 회의하여 출시한 앱입니다.<br>혼자 프론트를 담당하였고, android와 ios에 출시하였고, 업데이트 및 유지보수를 하고 있습니다.
-skills: [ 'Angular', 'TypeScript', 'Ionic', 'Capacitor', 'PWA' ]
+skills: [ 'Angular', 'TypeScript', 'Rxjs', 'Ionic', 'Capacitor', 'PWA' ]
 ---

@@ -4,8 +4,7 @@ modal-id: 5
 title: 'SDnetworks Admin'
 img: sdnetworks_admin.png
 alt: sdnetworks-admin-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+images: ['sdn_1.png', 'sdn_2.png']
+description: SD networks admin은 SD 통합회원(SDmall, SDnetworks, Smilepass)들을 관리해주고 SDnetworks의 운동시설/트레이너를 심사/관리하며, 스마일패스 챌린지, 배너, 푸시알림 등을 관리해주는 어드민입니다.<br>프론트 앤드를 담당했으며, FCM, AWS작업을 관리 작업하였습니다.
+skills: [ 'Angular', 'TypeScript', 'Bootstrap 5', 'Rxjs' ]
 ---

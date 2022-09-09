@@ -27,12 +27,26 @@
 								<p style="line-height: 2;">{{ post.description }}</p>
 								{% endif %}
 
+								{% if post.modal-id < 5 %}
 								<div style="margin-top: 30px; width: 100%; display: flex; justify-content: center; flex-direction: row; flex-wrap: wrap; gap: 10px;">
 									{% for image in post.images %}
 									<img src="img/portfolio/{{image}}" alt="sub-{{image}}" loading="lazy" style="flex: 1; max-width: 140px;">
 									{% endfor %}
 								</div>
+								{% endif %}
+								{% if post.modal-id == 5 %}
+								<div style="margin-top: 30px; width: 100%; display: flex; justify-content: center; flex-direction: row; flex-wrap: wrap; gap: 10px;">
+									{% for image in post.images %}
+									<img src="img/portfolio/{{image}}" alt="sub-{{image}}" loading="lazy" style="flex: 1; max-width: 400px;">
+									{% endfor %}
+								</div>
+								{% endif %}
 
+								{% if post.modal-id == 6 %}
+								<div>
+									<img src="img/portfolio/sadadream.png" alt="sub-sadadream" loading="lazy" style="flex: 1; max-width: 500px;">
+								</div>
+								{% endif %}
 								<!-- <ul class="list-inline item-details">
 								{% if post.client %}
 									<li>Client:
