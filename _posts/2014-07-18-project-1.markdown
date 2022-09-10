@@ -9,5 +9,5 @@ android: https://play.google.com/store/apps/details?id=com.sdoc
 ios: https://apps.apple.com/kr/app/sdmall/id973377025
 images: ['sdmall_1.png', 'sdmall_2.png', 'sdmall_3.png', 'sdmall_4.png', 'sdmall_5.png', 'sdmall_6.png']
 description: 에스디몰은 일상의 스포츠인들에게 필요한 상품을 합리적인 가격으로 제안하는 30만 회원의 라이프스포츠 전문 쇼핑몰입니다.<br>2020년 12월부터 리뉴얼을 기획하여 2021년 8월에 리뉴얼 오픈하였습니다.<br>프론트를 혼자 담당했으며, android와 ios에 출시하였고, 업데이트 및 유지보수를 하고 있습니다.
-skills: [ 'Angular', 'TypeScript', 'Ionic', 'PWA' ]
+skills: [ 'Angular', 'TypeScript', 'Rxjs', 'Ionic', 'PWA' ]
 ---

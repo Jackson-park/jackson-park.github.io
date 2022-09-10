@@ -27,6 +27,15 @@
 								<p style="line-height: 2;">{{ post.description }}</p>
 								{% endif %}
 
+								
+								<p>
+									기술:
+									{% for skill in post.skills %}
+									<span style="border: 1px solid #d8d8d8; padding: 5px; margin: 10px; text-align: center;">{{ skill }}</span>
+									{% endfor %}
+								</p>
+
+
 								{% if post.modal-id < 5 %}
 								<div style="margin-top: 30px; width: 100%; display: flex; justify-content: center; flex-direction: row; flex-wrap: wrap; gap: 10px;">
 									{% for image in post.images %}
